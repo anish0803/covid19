@@ -7,14 +7,16 @@
 body {
     display: grid;
     place-items: center;
-    background-color: var(--body-bg-clr);
+    background-color: aqua;
+    /* background-color: var(--body-bg-clr); */
 }
 
 .container {
     margin-top: 150px;
-    background-color: var(--container-bg-clr);
+    /* background-color: var(--container-bg-clr); */
+    background-color: #CD5C5C;
     width: 1200px;
-    height: 1200px;
+    height: 1900px;
     text-align: center;
 }
 
@@ -25,9 +27,19 @@ body {
     box-shadow: 5px 5px 5px black;
 }
 
+.heading{
+    background-color:  red;
+    color: green;
+}
+
+.headinfo th{
+    background-color: tomato;
+    color: yellowgreen;
+}
+
 .container .table {
     margin: 0 auto;
-    width: 950px;
+    width: 900px;
     height: 150px;
 }
 
@@ -47,7 +59,7 @@ body {
     color: var(--table-data-clr);
 }
 
-.container .btn {
+.btn {
     width: 150px;
     line-height: 1.5;
     border: none;
